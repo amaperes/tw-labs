@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <h1>About Me</h1>
+    <ul>
+        <li>Nickname: <span id="nickname"></span>
+        <li>Favorites:  <span id="favorites"></span>
+        <li>Hometown: <span id="hometown"></span>
+    </ul>
+
+
+    <p>Click the button to create an IMG element.</p>
+    <button onclick="myFunction()">Try it</button>
+
+
+</body>
+<script>
+     document.querySelector("body").style.fontFamily="Arial, sans-serif";
+     document.getElementById("nickname").innerHTML="Lorem";
+     document.getElementById("favorites").innerHTML="Lorem";
+     document.getElementById("hometown").innerHTML="Lorem";
+
+
+     document.querySelectorAll("li").forEach(function(element){
+        element.setAttribute("class", "list-item");
+     });
+     
+    function myFunction() {
+        var x = document.createElement("IMG");
+        x.setAttribute("src", "https://camo.mybb.com/e01de90be6012adc1b1701dba899491a9348ae79/687474703a2f2f7777772e6a71756572797363726970742e6e65742f696d616765732f53696d706c6573742d526573706f6e736976652d6a51756572792d496d6167652d4c69676874626f782d506c7567696e2d73696d706c652d6c69676874626f782e6a7067");
+        x.setAttribute("width", "304");
+        x.setAttribute("height", "228");
+        x.setAttribute("alt", "");
+        document.body.appendChild(x);
+}
+
+</script>
+</html>

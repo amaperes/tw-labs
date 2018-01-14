@@ -1,0 +1,19 @@
+{
+  "dogs": [
+    {
+      "name": "Doggie",
+      "img": "https://dog.ceo//api//img//lhasa//n02098413_3033.jpg",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "MINIATURE SCHNAUZER",
+      "img": "https://dog.ceo//api//img//schnauzer//n02097209_920.jpg"
+    },
+    {
+      "name": "Golden",
+      "img": "http://cdn1-www.dogtime.com/assets/uploads/gallery/golden-retriever-dogs-and-puppies/golden-retriever-dogs-puppies-9.jpg",
+      "id": 3
+    }
+  ]
+}
