@@ -1,8 +1,8 @@
-# Laborator 7 - [JS] - Obiecte si functii
+# Laborator 8 - [JS] - Obiecte si functii
 
 Intr-un document HTML, link-uiti cate un fisier JavaScript pentru fiecare exercitiu de mai jos (*ex1.js*, *ex2.js* etc.).
 
-## Exercitiul 7.1
+## Exercitiul 8.1
 
 ### Care sunt oamenii care v-au influentat viata?
 
@@ -18,7 +18,7 @@ Sincera
 Iubitoare de animale
 ```
 
-## Exercitiul 7.2
+## Exercitiul 8.2
 
 ### E ca IMDB-ul, dar mult mai mic...
 
@@ -29,7 +29,7 @@ Iubitoare de animale
 "La Moara cu noroc" a durat 130 minute. Actori: Constantin Codrescu, Olga Tudorache, Geo Barton"
 ```
 
-## Exercitiul 7.3
+## Exercitiul 8.3
 
 ### E Black Friday!
 
@@ -50,7 +50,7 @@ var blackFridayCart = {
 getCartValue(blackFridayCart); // 1103.3
 ```
 
-## Exercitiul 7.4
+## Exercitiul 8.4
 
 ### Map
 
